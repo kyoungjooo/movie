@@ -1,0 +1,8 @@
+.posterContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.poster {
+  height: 300px;
+  object-fit: contain;
+}
