@@ -2,10 +2,6 @@ import "./App.css";
 import { Outlet, useNavigate } from "react-router";
 import MovieList from "./pages/MOvieList";
 
-//popular , 상영작 nowPlaying, 영화 랭크  TopRated, 개봉작 upcoming
-//useParam을 잘 사용해보자
-//평점 프리뷰 ellipsis처리
-
 function App() {
   const navigate = useNavigate();
 
