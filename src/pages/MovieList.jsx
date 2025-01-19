@@ -7,7 +7,6 @@ const MovieList = () => {
   const lastMovieItemRef = useRef(null);
   const movieId = id || "popular";
   const { movieList, fetchNextPage, isLoading } = useInfinity({ key: movieId });
-  console.log(movieId);
   useEffect(
     function onObserver() {
       const el = lastMovieItemRef.current;

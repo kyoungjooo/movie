@@ -10,7 +10,6 @@ const useInfinity = ({ key }) => {
     },
     getNextPageParam: (lastPage, allPages) => lastPage.page + 1,
   });
-  console.log(data);
   const movieList = useMemo(() => {
     if (!data) return [];
     return data.pages.flatMap((page) => page.results);
